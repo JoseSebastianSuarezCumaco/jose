@@ -1,0 +1,122 @@
+body {
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    color: #e2e8f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #f1f5f9;
+}
+
+button {
+    border-radius: 12px !important;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+.card {
+    border: none;
+    border-radius: 18px;
+    background: #1e293b;
+    color: #e2e8f0;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0px 15px 30px rgba(0,0,0,0.5);
+}
+
+.img-card {
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #334155;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-body p {
+    margin: 4px 0;
+    font-size: 14px;
+}
+
+.card-footer {
+    background: transparent;
+    border-top: 1px solid #334155;
+}
+
+#container {
+    margin-top: 20px;
+}
+
+input {
+    background: #ffffff !important;
+    border: 1px solid #334155 !important;
+    color: #000000 !important;
+    border-radius: 10px !important;
+}
+
+input::placeholder {
+    color: #94a3b8;
+}
+
+input:focus {
+    outline: none;
+    border-color: #38bdf8 !important;
+    box-shadow: 0 0 5px #38bdf8;
+}
+
+.card.p-3 {
+    background: #020617;
+    border: 1px solid #334155;
+}
+
+.btn-primary {
+    background: #3b82f6;
+    border: none;
+}
+
+.btn-secondary {
+    background: #64748b;
+    border: none;
+}
+
+.btn-warning {
+    background: #f59e0b;
+    border: none;
+}
+
+.btn-dark {
+    background: #020617;
+    border: none;
+}
+
+.btn-success {
+    background: #22c55e;
+    border: none;
+}
+
+.btn-danger {
+    background: #ef4444;
+    border: none;
+}
+
+.btn-info {
+    background: #06b6d4;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .img-card {
+        height: 150px;
+    }
+}
